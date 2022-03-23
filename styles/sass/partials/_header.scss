@@ -9,23 +9,24 @@ header {
     background-color: $primary;
     border-radius: 0 2px 0 0;
     position: relative;
-    padding: 0 20%;
+    padding: 0 1vw;
     border-bottom: 2px solid $solidBlack;
 
 }
 
 .myName {
-    padding: 1%;
+    padding: 5px;
     margin-right: 10px;
 }
 
 nav {
     display: flex;
     width: 50vw;
+    max-width: 1375px;
     align-items: center;
     ul {
         display: flex;
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
