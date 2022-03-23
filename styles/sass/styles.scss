@@ -1,0 +1,11 @@
+// load order: setup - baseStyles - variable - typography - header - main -section - footer - mediaQueries
+
+@import "./partials/setup";
+@import "./partials/baseStyles";
+@import "./partials/variables";
+@import "./partials/typography";
+
+@import "./partials/header";
+@import "./partials/footer";
+
+@import "./partials/mediaQueries";
