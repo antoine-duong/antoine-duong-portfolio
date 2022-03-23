@@ -4,13 +4,14 @@ header {
 .wrapper {
     display: flex;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: $primary;
     border-radius: 0 2px 0 0;
+    position: relative;
+    padding: 0 20%;
+    border-bottom: 2px solid $solidBlack;
     
 }
-
-
 
 .myName {
     padding: 1%;

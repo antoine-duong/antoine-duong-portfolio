@@ -1,7 +1,10 @@
 .monitor {
     display: flex;
-    height: 100vh;
     position: relative;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $backgroundColour2;
 }
 
 .bezel {
@@ -9,8 +12,8 @@
     width: 1920px;
     height: 1080px;
     position: absolute;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 78px 1fr 76px;
+    border-radius: 10px;
+    grid-template-columns: 78px 1fr 75px;
     grid-template-rows: 80px 1fr 9fr 85px;
 }
