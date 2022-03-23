@@ -4,13 +4,14 @@ header {
 .wrapper {
     display: flex;
     width: 100%;
+    max-width: 1767px;
     justify-content: center;
     background-color: $primary;
     border-radius: 0 2px 0 0;
     position: relative;
     padding: 0 20%;
     border-bottom: 2px solid $solidBlack;
-    
+
 }
 
 .myName {
@@ -20,7 +21,7 @@ header {
 
 nav {
     display: flex;
-    width: 50%;
+    width: 50vw;
     align-items: center;
     ul {
         display: flex;
