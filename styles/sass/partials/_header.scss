@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 1920px;
+    padding:75px 0 0 100px;
+    justify-content: flex-start;
+
+}
+
+.myName {
+    padding: 1%;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}

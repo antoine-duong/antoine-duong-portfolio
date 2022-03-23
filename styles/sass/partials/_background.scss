@@ -1,0 +1,13 @@
+.monitor {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.bezel {
+    background: url(../assets/bezel1920.png) center $backgroundColour1;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    margin: 0 auto;
+}
