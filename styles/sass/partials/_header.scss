@@ -1,12 +1,16 @@
+header {
+    grid-area: 2 / 2 / 3 / 3;
+}
 .wrapper {
     display: flex;
-    position: absolute;
     width: 100%;
-    max-width: 1920px;
-    padding:75px 0 0 100px;
     justify-content: flex-start;
-
+    background-color: $primary;
+    border-radius: 0 2px 0 0;
+    
 }
+
+
 
 .myName {
     padding: 1%;

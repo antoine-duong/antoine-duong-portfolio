@@ -291,21 +291,27 @@ h2 {
   background: url(../assets/bezel1920.png) center #008080;
   width: 1920px;
   height: 1080px;
-  position: relative;
+  position: absolute;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 78px 1fr 76px;
+  grid-template-rows: 80px 1fr 9fr 85px;
+}
+
+header {
+  grid-area: 2/2/3/3;
 }
 
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   width: 100%;
-  max-width: 1920px;
-  padding: 75px 0 0 100px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  background-color: #c0c0c0;
+  border-radius: 0 2px 0 0;
 }
 
 .myName {
