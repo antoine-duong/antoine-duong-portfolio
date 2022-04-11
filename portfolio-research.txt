@@ -1,0 +1,62 @@
+# Ideas
+- Choose a theme and stick with it:
+	- Colour palleted: No more than 5.
+	- Fonts: No more than 3.
+- Site title:
+	- Name + designation.
+	- Name + main ability.
+	- Name + twitter handle.
+- Social media bar (github, medium, dev.to, linkedin, twitter).
+- A toggle for day or night mode.
+- An auto playing slide (for header). IMPORTANT: need to grab attention.
+- Navigation bar must have:
+	- Home
+	- About
+	- Projects (Works)
+	- Contact
+- Side projects.
+- An interesting introduction for one of the side projects.
+- Collection of blog posts - interactive preferably.
+- Showcase of ideas and designs - linked to the blog posts section.
+- Use ease-in effect to display new elements as the user scroll down.
+- No sounds.
+# Sample portfolios
+## Retro
+https://zach.dev/ (win95 desktop)
+http://eeerik.com/ (80s gaming theme)
+http://the80sareawesome.com/ (perfect 80 theme and font)
+https://webflow.com/ix2 (retro theme gallery)
+https://www.awwwards.com/sites/the-vhs-retrominder (thick monitor bezel overlay)
+
+## Simple
+https://www.emidesigned.com/ (popping out effect)
+https://www.pascalstrasche.com/ (pressing/ hovering on resize)
+https://www.vickymarch.com/ (cool paper airplane effect)
+http://mrcthms.com/?ref=hackernoon.com (flashy button)
+https://caferati.me/ (simple gallery)
+https://www.ginayu.design/ (move text and auto highlighted)
+https://www.jrutlanddesign.co.uk/
+https://www.behance.net/chopse?ref=hackernoon.com (is this just a simple portfolio)
+https://jp-labs.de/?ref=hackernoon.com
+
+## Complex
+https://www.seanhalpin.design/
+https://hype4.com/  AND https://www.oishee.io/ (ease-in)
+https://danielkorpai.com/ (floating windows effect)
+https://www.aaronrudyk.com/ (changing background colour and animated image links)
+https://brittanychiang.com/?ref=hackernoon.com (ease-in with timing sequences)
+https://kuon.space/ (sliding in and out and enlarging as user scrolls)
+https://www.titusklein.com/ (soft ease-in)
+http://riccardozanutta.com/ (cool sci-fi-ish loading screen and text manipulation)
+https://animalmade.com/ (cool hovering effect)
+http://y78.fr/5/?ref=hackernoon.com (amazing retro simplicity)
+https://dunderville.se/ (image ease in text hovering effect)
+https://www.web-expert.it/ (sliding text as user scrolling)
+https://atozofai.withgoogle.com/intl/en-US/ (cool item box and icon image animation)
+
+## Super
+http://www.rleonardi.com/interactive-resume/ (loading bar + everything)
+https://bruno-simon.com/ (3D with control)
+https://moonfarmer.com/ (animated background and revolving contents)
+https://resn.co.nz/?ref=hackernoon.com (3D + advanced mouse control)
+https://blastgalaxy.nl/ (retro gaming arcade theme)

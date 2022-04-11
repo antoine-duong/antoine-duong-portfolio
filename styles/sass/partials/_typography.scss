@@ -10,14 +10,14 @@ html {
 }
 
 body {
-    font-family: 'Inconsolata', monospace;
+    font-family: $bodyFont, monospace;
     font-size: 2rem;
     letter-spacing: 0.2rem;
     line-height: 1.5rem;
 }
 
 h1 {
-    font-family: 'Karla', sans-serif;
+    font-family: $headingFont, sans-serif;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 0.5rem;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Karla', sans-serif;
+    font-family: $headingFont, sans-serif;
     font-size: 2rem;
     letter-spacing: 0.5rem;
     line-height: 2.5rem;

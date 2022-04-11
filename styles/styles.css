@@ -15,7 +15,7 @@ article, aside, footer, header, nav, section {
 
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 figcaption, figure, main {
@@ -34,7 +34,7 @@ hr {
 }
 
 pre {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -59,7 +59,7 @@ b, strong {
 }
 
 code, kbd, samp {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -84,11 +84,11 @@ sub, sup {
 }
 
 sub {
-  bottom: -.25em;
+  bottom: -0.25em;
 }
 
 sup {
-  top: -.5em;
+  top: -0.5em;
 }
 
 audio, video {
@@ -137,7 +137,7 @@ button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring
 }
 
 fieldset {
-  padding: .35em .75em .625em;
+  padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
@@ -207,7 +207,7 @@ template {
   visibility: hidden;
   display: block;
   font-size: 0;
-  content: '';
+  content: "";
   clear: both;
   height: 0;
 }
@@ -262,14 +262,14 @@ html {
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 2rem;
   letter-spacing: 0.2rem;
   line-height: 1.5rem;
 }
 
 h1 {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.5rem;
@@ -277,7 +277,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 2rem;
   letter-spacing: 0.5rem;
   line-height: 2.5rem;
@@ -304,21 +304,14 @@ html {
   width: 1366px;
   height: 766px;
   position: absolute;
-  display: -ms-grid;
   display: grid;
   border-radius: 10px;
-  -ms-grid-columns: 55px 1fr 53.85px;
-      grid-template-columns: 55px 1fr 53.85px;
-  -ms-grid-rows: 57.5px 1fr 9fr 85px;
-      grid-template-rows: 57.5px 1fr 9fr 85px;
+  grid-template-columns: 55px 1fr 53.85px;
+  grid-template-rows: 57.5px 1fr 9fr 85px;
 }
 
 header {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2/2/3/3;
 }
 
 .wrapper {
@@ -352,7 +345,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
-
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
