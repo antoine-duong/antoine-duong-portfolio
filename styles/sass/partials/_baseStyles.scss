@@ -7,6 +7,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
+html {
+    background-color: $backgroundColour2;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -17,4 +21,24 @@ ul li {
 
 a, a::after {
     text-decoration: none;
+}
+
+.viewPortWrapper {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bezel {
+    background: url(../assets/bezel1366.png) center $backgroundColour1;
+    width: 1366px;
+    height: 766px;
+    position: absolute;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 55px 1fr 53.85px;
+    grid-template-rows: 57.5px 1fr 9fr 85px;
 }

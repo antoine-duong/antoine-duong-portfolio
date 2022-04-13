@@ -15,7 +15,7 @@ article, aside, footer, header, nav, section {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: .67em 0;
 }
 
 figcaption, figure, main {
@@ -34,7 +34,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em;
 }
 
@@ -59,7 +59,7 @@ b, strong {
 }
 
 code, kbd, samp {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em;
 }
 
@@ -84,11 +84,11 @@ sub, sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
 audio, video {
@@ -137,7 +137,7 @@ button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring
 }
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  padding: .35em .75em .625em;
 }
 
 legend {
@@ -207,7 +207,7 @@ template {
   visibility: hidden;
   display: block;
   font-size: 0;
-  content: "";
+  content: '';
   clear: both;
   height: 0;
 }
@@ -245,6 +245,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
+html {
+  background-color: #1c00b0;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -255,6 +259,35 @@ ul li {
 
 a, a::after {
   text-decoration: none;
+}
+
+.viewPortWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bezel {
+  background: url(../assets/bezel1366.png) center #008080;
+  width: 1366px;
+  height: 766px;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 10px;
+  -ms-grid-columns: 55px 1fr 53.85px;
+      grid-template-columns: 55px 1fr 53.85px;
+  -ms-grid-rows: 57.5px 1fr 9fr 85px;
+      grid-template-rows: 57.5px 1fr 9fr 85px;
 }
 
 html {
@@ -283,35 +316,12 @@ h2 {
   line-height: 2.5rem;
 }
 
-html {
-  background-color: #1c00b0;
-}
-
-.monitor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: auto;
-  width: 100vw;
-}
-
-.bezel {
-  background: url(../assets/bezel1366.png) center #008080;
-  width: 1366px;
-  height: 766px;
-  position: absolute;
-  display: grid;
-  border-radius: 10px;
-  grid-template-columns: 55px 1fr 53.85px;
-  grid-template-rows: 57.5px 1fr 9fr 85px;
-}
-
 header {
-  grid-area: 2/2/3/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .wrapper {
@@ -345,6 +355,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
