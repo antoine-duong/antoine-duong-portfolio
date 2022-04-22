@@ -19,8 +19,16 @@ ul li {
     list-style: none;
 }
 
+li {
+    &.navItem {
+        width: 212px;
+        height: 70px;
+    }
+}
+
 a, a::after {
     text-decoration: none;
+    color: $solidBlack;
 }
 
 .viewPortWrapper {
@@ -41,4 +49,12 @@ a, a::after {
     border-radius: 10px;
     grid-template-columns: 55px 1fr 53.85px;
     grid-template-rows: 57.5px 1fr 9fr 85px;
+}
+
+main {
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    width: 1256px;
+    height: 579px;
 }
