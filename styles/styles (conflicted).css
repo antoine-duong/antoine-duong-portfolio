@@ -306,7 +306,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-  background: linear-gradient(120deg, #fff1d0 0%, teal 50%, #1c00b0 100%);
+  background: linear-gradient(120deg, #eb6534 0%, teal 50%, #1c00b0 100%);
 }
 
 body {
@@ -353,8 +353,8 @@ a, a::after {
   border-radius: 10px;
   -ms-grid-columns: 55px 1fr 53.85px;
       grid-template-columns: 55px 1fr 53.85px;
-  -ms-grid-rows: 57.25px 1fr 9fr 57.25px;
-      grid-template-rows: 57.25px 1fr 9fr 57.25px;
+  -ms-grid-rows: 57.5px 1fr 9fr 85px;
+      grid-template-rows: 57.5px 1fr 9fr 85px;
 }
 
 main {
@@ -405,8 +405,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-width: 1257.2px;
-  height: 7.2rem;
+  max-width: 1257.15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -451,6 +450,10 @@ nav ul {
   height: 100%;
 }
 
+.navLink:hover {
+  background-color: #fef9a1;
+}
+
 li .navItem {
   position: relative;
   display: inline-block;
@@ -462,17 +465,8 @@ li .navItem {
   background-color: #c0c0c0;
   min-width: 180px;
   z-index: 1;
-  padding-top: 1rem;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
-  border-right: 2px solid #000;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-.navDropdown p {
-  line-height: 3rem;
-  padding: 0 0.25rem 0 0.25rem;
 }
 
 .navItem:hover .navDropdown {
@@ -511,43 +505,12 @@ li .navItem {
   position: absolute;
 }
 
-.windowTopBar {
-  width: 700px;
-  height: 25px;
-  background: navy;
-  background: -webkit-gradient(linear, left top, right top, from(navy), to(#1084d0));
-  background: linear-gradient(90deg, navy 0%, #1084d0 100%);
-  border-left: solid 2px #c4c4c4;
-  border-top: solid 2px #c4c4c4;
-  border-right: solid 2px #4d4d4d;
-}
-
-.windowTopBar:hover {
-  cursor: move;
-}
-
-.windowTopBar p {
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 0.25rem 0 0 0.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.windowTopBar p span {
-  padding-right: 0.5rem;
-}
-
 .windowBezel {
   background: url(../assets/win98explorer-empty500.png) center no-repeat;
-  background-size: 700px 500px;
-  background-color: #fff;
-  width: 700px;
-  height: 500px;
-}
-
-.windowBezel p {
-  font-size: 1.5rem;
-  padding: 0.75rem;
+  width: 500px;
+  height: 312px;
+  position: absolute;
+  background-color: black;
+  top: 5%;
+  right: 5%;
 }

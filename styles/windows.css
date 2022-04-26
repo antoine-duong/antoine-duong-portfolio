@@ -1,0 +1,22 @@
+.windows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+.windowAbout {
+  width: 500px;
+  height: 500px;
+  display: absolute;
+}
+
+.windowBezel {
+  background: url(../assets/win98explorer-empty500.png) center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  position: absolute;
+  background-color: black;
+  top: 5%;
+  right: 5%;
+}
