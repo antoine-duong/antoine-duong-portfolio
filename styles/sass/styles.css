@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Karla:wght@400;500;700&display=swap");
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Box sizing rules */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'], ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  background: linear-gradient(120deg, #fff1d0 0%, teal 50%, #1c00b0 100%);
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+li.navItem {
+  width: 212px;
+  height: 70px;
+}
+
+a, a::after {
+  text-decoration: none;
+  color: #000;
+}
+
+.viewPortWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bezel {
+  background: url(../assets/bezel1366.png) center #008080;
+  width: 1366px;
+  height: 766px;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 10px;
+  -ms-grid-columns: 55px 1fr 53.85px;
+      grid-template-columns: 55px 1fr 53.85px;
+  -ms-grid-rows: 57.25px 1fr 9fr 57.25px;
+      grid-template-rows: 57.25px 1fr 9fr 57.25px;
+}
+
+main {
+  position: absolute;
+  top: 130px;
+  left: 55px;
+  width: 1256px;
+  height: 579px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  line-height: 2.5rem;
+}
+
+header {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1257.2px;
+  height: 7.2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c0c0c0;
+  border-radius: 0 2px 0 0;
+  padding: 0 1vw;
+  border-bottom: 2px solid #000;
+}
+
+.myName {
+  padding: 5px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  max-width: 848px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+li .navItem {
+  position: relative;
+  display: inline-block;
+}
+
+.navDropdown {
+  visibility: hidden;
+  position: absolute;
+  background-color: #c0c0c0;
+  min-width: 180px;
+  z-index: 1;
+  padding-top: 1rem;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navDropdown p {
+  line-height: 3rem;
+  padding: 0 0.25rem 0 0.25rem;
+}
+
+.navItem:hover .navDropdown {
+  visibility: visible;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.desktopIcons .folder {
+  top: 10%;
+  left: 5%;
+  width: 10rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+.desktopIcons .folder:hover {
+  cursor: pointer;
+}
+
+.desktopIcons .folder img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.desktopIcons .folder p {
+  text-align: center;
+}
+
+.windowAbout {
+  top: 5%;
+  right: 5%;
+  position: absolute;
+}
+
+.windowTopBar {
+  width: 700px;
+  height: 25px;
+  background: navy;
+  background: -webkit-gradient(linear, left top, right top, from(navy), to(#1084d0));
+  background: linear-gradient(90deg, navy 0%, #1084d0 100%);
+  border-left: solid 2px #c4c4c4;
+  border-top: solid 2px #c4c4c4;
+  border-right: solid 2px #4d4d4d;
+}
+
+.windowTopBar:hover {
+  cursor: move;
+}
+
+.windowTopBar p {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.25rem 0 0 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.windowTopBar p span {
+  padding-right: 0.5rem;
+}
+
+.windowBezel {
+  background: url(../assets/win98explorer-empty500.png) center no-repeat;
+  background-size: 700px 500px;
+  background-color: #fff;
+  width: 700px;
+  height: 500px;
+}
+
+.windowBezel p {
+  font-size: 1.5rem;
+  padding: 0.75rem;
+}
+/*# sourceMappingURL=styles.css.map */
